@@ -99,8 +99,11 @@ footer{
         "menu   seccion-principal"
         "pie-de-pagina seccion-principal";
     }
-    .seccion-principla{
-        display: row;
+    .card{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+        margin: 20px;
     }
     
     
