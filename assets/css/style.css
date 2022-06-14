@@ -6,7 +6,6 @@
 
 /* CONTENEDOR GENERAL*/
 div{
-    display: grid;
     border: 1px solid gainsboro;
     grid-template-rows: 1fr 9fr 1fr;
     grid-template-areas: 
