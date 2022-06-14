@@ -28,6 +28,7 @@ nav{
 /*CONTENIDO*/
 main {
     grid-area: seccion-principal;
+    display: block;
   
 
 }
