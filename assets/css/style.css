@@ -5,7 +5,7 @@
 }
 
 /* CONTENEDOR GENERAL*/
-.container-general {
+.div {
     grid-template-rows: 1fr 9fr 1fr;
     grid-template-areas: 
     "menu"
