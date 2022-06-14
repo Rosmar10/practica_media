@@ -97,6 +97,7 @@ footer{
         grid-template-areas: 
         "menu   seccion-principal"
         "menu   seccion-principal"
+        "menu   seccion-principal"
         "pie-de-pagina seccion-principal";
     }
     .container-tarjetas {
