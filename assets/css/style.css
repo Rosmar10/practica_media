@@ -100,10 +100,11 @@ footer{
         "pie-de-pagina seccion-principal";
     }
     .container-tarjetas {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.2);
-        margin: 20px;
+        width: 85%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
     }
     
     
