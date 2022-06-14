@@ -97,7 +97,7 @@ footer{
         "pie-de-pagina seccion-principal";
     }
     .seccion-principla{
-        display: flex;
+        display: row;
     }
     
     
