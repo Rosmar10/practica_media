@@ -103,7 +103,7 @@ footer{
 
 /* DESKTOP*/
 @media (min-width: 1024px) {
-    div {
+    .container-general {
         display: grid;
         grid-template-columns: 200px;
         grid-template-rows: 100px 350px 100px;
