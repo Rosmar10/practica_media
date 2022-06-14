@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENEDOR GENERAL*/
+div{
+    display: grid;
+    border: 1px solid gainsboro;
+    grid-template-rows: 1fr 9fr 1fr;
+    grid-template-areas: 
+    "menu"
+    "seccion-principal"
+    "pie-de-pagina";
+}
+
+/* MENU*/
+nav{
+    
+    grid-area: menu;
+    background: purple;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+/*CONTENIDO*/
+main {
+    grid-area: seccion-principal;
+  
+
+}
+
+/* ORDENAR POR FECHA O PRECIO*/
+.filtros{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(310, 33%, 96%);
+    padding: 20px;
+}
+.boton{
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+/* CONTAINER TARJETAS*/
+.card{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-body{
+    height: 100px;
+}
+
+
+
+/* IMAGENES */
+img{
+ height: 250px;
+ width: 269px;
+}
+
+
+
+/*PIE DE PAGINA*/
+footer{
+    display: flex;
+    grid-area: pie-de-pagina;
+    background: black;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+
+
+/* MEDIA */
+
+/* TABLET*/
+@media (min-width: 768px) {
+    div {
+        grid-template-columns: 200px;
+        grid-template-rows: 100px 460px 150px;
+        grid-template-areas: 
+        "menu   seccion-principal"
+        "menu   seccion-principal"
+        "pie-de-pagina seccion-principal";
+    }
+    
+    
+}
+
+/* DESKTOP*/
+@media (min-width: 1024px) {
+    div {
+        grid-template-columns: 200px;
+        grid-template-rows: 100px 350px 100px;
+        grid-template-areas: 
+        "menu   seccion-principal"
+        "menu   seccion-principal"
+        "pie-de-pagina seccion-principal";
+    }
+    
+
+    
+}
+
