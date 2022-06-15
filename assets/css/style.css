@@ -30,7 +30,15 @@ main {
   
 }
 
-* CONTAINER TARJETAS*/
+/* CONTAINER TARJETAS*/
+.container-tarjetas{
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    justify-items: center
+}
+
 .card{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);
@@ -40,13 +48,6 @@ main {
 
 .card-body{
     height: 70px;
-}
-.container-tarjetas{
-    margin: 30px auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    justify-items: center
 }
 
 .filtros p{
