@@ -15,7 +15,6 @@
 
 /* MENU*/
 nav{
-    
     grid-area: menu;
     background: purple;
     color: white;
@@ -30,6 +29,7 @@ main {
     display: block;
   
 }
+
 .container-tarjetas{
     margin: 30px auto;
     display: grid;
@@ -38,7 +38,7 @@ main {
     justify-items: center
 }
 
-p{
+.filtros p{
     text-align: center;
 }
 
