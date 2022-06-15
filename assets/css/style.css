@@ -137,7 +137,18 @@ footer{
         "menu   seccion-principal"
         "pie-de-pagina seccion-principal";
     }
-    
+    .container-tarjetas {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    img{
+       height: 180px;
+       width: 267px;
+    }
+    .card{
+        margin: auto;
+    }
     
 }
 
