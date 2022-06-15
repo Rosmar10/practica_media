@@ -43,6 +43,7 @@ p{
 }
 
 /* ORDENAR POR FECHA O PRECIO*/
+
 .filtros{
     text-align: center;
     align-items: center;
@@ -50,6 +51,9 @@ p{
     flex-direction: column;
     background-color: hsl(310, 33%, 96%);
    
+}
+.filtros p{
+    margin: 10px;
 }
 .boton{
     margin: 10px;
