@@ -93,12 +93,13 @@ footer{
 }
 
 .pie-de-pagina i{
-
-    margin: 5px;
     justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 .pie-de-pagina p{
   justify-content: center;
+  font-size: small;
 }
 
 
