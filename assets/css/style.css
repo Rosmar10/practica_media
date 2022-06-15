@@ -84,14 +84,24 @@ img{
 /*PIE DE PAGINA*/
 footer{
     display: flex;
+    flex-direction: column;
     grid-area: pie-de-pagina;
     background: black;
     color: white;
-    padding: 40px;
+    padding: 95px;
     justify-content: center;
-    
 }
 
+.pie-de-pagina i{
+    display: grid;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+.pie-de-pagina p{
+  justify-content: center;
+  flex: content;
+}
 
 
 /* MEDIA */
