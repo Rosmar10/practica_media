@@ -92,14 +92,17 @@ footer{
     justify-content: center;
 }
 
-.pie-de-pagina i{
+.icon{
+    display: flex;
     justify-content: center;
-    
-    margin: 10px;
+    gap: 10px;
 }
-.pie-de-pagina p{
-  justify-content: center;
-  font-size: small;
+.p-footer{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: small;
 }
 
 
