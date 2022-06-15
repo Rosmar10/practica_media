@@ -49,7 +49,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: hsl(310, 33%, 96%);
-    padding: 20px;
+   
 }
 .boton{
     margin: 10px;
